@@ -1,0 +1,53 @@
+body{
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(45deg,red,white);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  overflow: hidden;
+}
+#cartabody{
+  position: absolute;
+  width: 500px;
+  height: 250px;
+  z-index: 1;
+}
+#cartahead{
+  position: absolute;
+  width: 500px;
+  height: 150px;
+  z-index: 2;
+  transition: 2s;
+}
+h1{
+  font-family: franklin gothic;
+  color: red;
+  -webkit-text-stroke: 2px blueviolet;
+}
+#carta{
+  top: 150px;
+  position: absolute;
+  width: 500px;
+  height: 250px;
+  cursor: pointer;
+}
+#cartaheadinside{
+  position: absolute;
+  transition: 2s;
+  width: 500px;
+  height: 150px;
+}
+#papel{
+  font-family: lucida handwriting;
+  position: absolute;
+  left: 187.5px;
+  width: 125px;
+  height: 150px;
+  border: 2px solid black;
+  background-color: white;
+  transition: 2s;
+  z-index: 1;
+}
+#carta:active{
+  filter: grayscale(80%) blur(0.5px);
+}
